@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/********************** global css stsrt******************/
+.container{
+    width: 100%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}    
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+.col-lg-9{
+    width: 100%;
+    float: left;
+}
+.col-lg-6{
+        width: 50%;
+        float: left;
+}
+.col-lg-4{
+    width: 33.3%;
+    float: left;
+}
+.col-lg-3{
+    width: 25%;
+    float: left;
+}
+
+
+/********************** global css end*******************/
+
+/********************header start here******************** */
+.header{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    border-bottom: 1.5px solid #eee;
+    
+}
+.header img{
+    margin-left: 50px;
+}
+
+.navbar
+{
+    list-style-type: none;
+    float: right;
+    text-align: right;
+    margin-right: 50px;
+   
+  
+}
+.navbar li{
+    display: inline-block;   
+    padding: 14px 16px;
+   
+   
+}
+.navbar li a{
+    font-size: 18px;
+    font-weight: 500;
+    color:#0F2656;
+    transition: .5s;
+    
+}
+.navbar li a:hover, .navbar li a:focus{
+    color: #008AFF;
+}
+
+
+
+
+/********************header end here******************** */
+
+/********************banner start here******************** */
+.banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+.banner h1{
+    font-size: 45px;
+    line-height: 55px;  
+    color:#0F2656;
+   
+
+}
+.banner span{
+    color: #008AFF;
+}
+.banner p{
+    font-size: 17px;
+    line-height: 26px;
+    color:#0F2656;
+    margin: 15px;
+}
+.banner img{
+    width: 600px;
+    margin: 30px;
+}
+
+/********************banner end here******************** */
+
+
+/********************Successfull start here******************** */
+.successfull{
+    width: 100%;
+    float: left;
+    margin: 0px auto;
+    padding: 0 30px;
+    
+}
+.successfull .text-left{
+    width: 100%;
+    float:left;
+    text-align: right;
+  
+
+
+}
+
+.successfull .text-left h2{
+    font-size: 45px;
+    line-height: 55px;  
+    color:#F15767;
+    margin-right: 25px;
+   
+
+
+}
+.successfull .text-left p{
+    font-size: 17px;
+    line-height: 26px;
+    color:#0F2656;
+    margin-right: 25px;
+
+}
+
+
+.successfull .text-right{
+    width: 100%;
+    float:left;
+  
+
+}
+.successfull .text-right h2{
+font-size: 45px;
+line-height: 55px;
+color:#0F2656;
+margin-left: 25px;
+ } 
+ 
+/********************Successfull end here******************** */
+
+
+
+/********************feature start here******************** */
+.feature{
+    width: 100%;
+    float: left;
+    margin: 0px 30px;
+    padding: 60px 30px;
+}
+
+.feature .box{
+ width: 94%;
+ float: left;
+ padding: 30px;
+ text-align: justify;
+
+}
+.feature .box img{
+    width: 90%;
+    height: 200px; 
+    text-align: center;  
+ 
+}
+
+.feature .box h5{
+    font-size: 25px;
+    line-height: 35px;
+    color:#0F2656;
+    text-align: left;
+   
+}
+.feature .box p{
+    font-size: 15px;
+    line-height: 25px;
+    color:#0F2656;
+    text-align: left;
+    
+
+}
+
+   .cl1{
+    background-color: #FDEBED;
+
+
+   }
+   .cl2{
+    background-color: #EBF9F4;
+   }
+
+
+   .cl3{
+    background-color: #FFF7E8;
+
+   }
+/********************featrue end here********************** */
+
+
+
+/********************footer start here********************** */
+.footer{
+    width: 100%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #008AFF;
+    padding: 15px 0px;
+}
+.footer p{
+    font-size: 17px;
+    color: #c8c6c6;
+}
+.footer span a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+/********************footer end here********************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
